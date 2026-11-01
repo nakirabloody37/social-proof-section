@@ -69,6 +69,7 @@ body {
   flex-direction: column;
   text-align: center;
   max-width: calc(275rem / 16);
+  margin-bottom: var(--space-8);
 }
 
 .heading-primary {
@@ -76,4 +77,8 @@ body {
   line-height: 0.9;
   color: var(--primary-color);
   margin-bottom: var(--space-6);
+}
+
+.social-proof-description {
+  color: var(--dgm);
 }
