@@ -57,6 +57,7 @@ body {
   /* background-color: var(--lgm); */
 }
 
+/*sec SOCIAL PROOF SECTION (UPPER PART) */
 .social-proof-section {
   display: grid;
   place-items: center;
@@ -81,4 +82,24 @@ body {
 
 .social-proof-description {
   color: var(--dgm);
+}
+
+/*sec SOCIAL PROOF RATINGS */
+
+.social-proof-ratings {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  margin-bottom: var(--space-16);
+}
+
+.social-proof-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-3) var(--space-12);
+  background-color: var(--lgm);
+  color: var(--primary-color);
+  font-weight: 700;
 }
