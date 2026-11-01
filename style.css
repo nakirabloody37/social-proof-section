@@ -50,3 +50,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: calc(15rem / 16);
+}
