@@ -89,17 +89,28 @@ body {
 .social-proof-ratings {
   display: flex;
   flex-direction: column;
-  gap: var(--space-5);
+  gap: var(--space-3);
   margin-bottom: var(--space-16);
+}
+
+.rating-stars {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.star-icon {
+  width: var(--text-3p2);
+  height: var(--text-3p2);
 }
 
 .social-proof-rating {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-1);
+  gap: var(--space-2);
   padding: var(--space-3) var(--space-12);
   background-color: var(--lgm);
   color: var(--primary-color);
+  font-size: var(--text-3p2);
   font-weight: 700;
 }
