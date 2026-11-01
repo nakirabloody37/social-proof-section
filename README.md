@@ -14,8 +14,8 @@ A social proof section built with HTML & and, Mobile-first approach
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/nakirabloody37/social-proof-section)
+- Live Site URL: [Live site](https://nakirabloody37.github.io/social-proof-section/)
 
 ### Built with
 
