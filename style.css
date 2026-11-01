@@ -160,3 +160,38 @@ body {
 .testimonial-author-status {
   color: var(--accent-color);
 }
+
+/*sec MEDIA QUERIES */
+
+/*sec 515px */
+@media (min-width: 32.2em) {
+  .social-proof-testimonials {
+    width: 65%;
+  }
+
+  .social-proof-ratings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .social-proof-rating {
+    padding: var(--space-2) var(--space-8);
+  }
+
+  .social-proof--best-tech {
+    transform: translateX(50%);
+  }
+}
+
+/*sec 620px */
+@media (min-width: 38.75em) {
+  .social-proof-testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85%;
+  }
+
+  .social-proof-testimonial:last-child {
+    transform: translateX(50%);
+  }
+}
