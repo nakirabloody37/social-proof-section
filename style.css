@@ -63,7 +63,7 @@ body {
   display: grid;
   place-items: center;
 
-  padding: var(--space-24) 0;
+  padding: var(--space-16) 0;
 }
 
 .heading {
@@ -71,7 +71,7 @@ body {
   flex-direction: column;
   text-align: center;
   max-width: calc(275rem / 16);
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-12);
 }
 
 .heading-primary {
@@ -91,7 +91,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
-  margin-bottom: var(--space-16);
+  margin-bottom: var(--space-10);
 }
 
 .rating-stars {
@@ -121,14 +121,14 @@ body {
 .social-proof-testimonials {
   display: flex;
   flex-direction: column;
-  gap: var(--space-8);
+  gap: var(--space-5);
 
-  width: 80%;
+  width: 85%;
   color: var(--lgm);
 }
 
 .social-proof-testimonial {
-  padding: var(--space-8) var(--space-6);
+  padding: var(--space-8);
   border-radius: 7px;
   background-color: var(--primary-color);
 }
@@ -142,7 +142,7 @@ body {
   display: flex;
   align-items: center;
   gap: var(--space-5);
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-6);
   font-size: var(--text-3p2);
 }
 
