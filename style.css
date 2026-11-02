@@ -214,6 +214,10 @@ body {
 /*sec 1000px */
 
 @media (min-width: 62.5em) {
+  html {
+    font-size: 100%;
+  }
+
   .social-proof-section {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-20);
